@@ -1,4 +1,4 @@
-# PMAJAY-B6
+# PMAJAY-B6 Batch
 
 # Classroom link
 https://classroom.github.com/a/54OcTfpD
