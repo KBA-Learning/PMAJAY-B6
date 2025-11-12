@@ -1,0 +1,19 @@
+.col{
+    width:33.33%;
+    height: 300px;
+    border-style: none;
+    border-left: 2px solid green;
+    padding: 5px;
+   
+}
+
+.cat{
+    display :flex;
+    margin: 30px;
+    padding: 10px;
+}
+
+.absolute{
+    display: flex;
+    justify-content: space-between;
+}
