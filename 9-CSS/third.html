@@ -25,6 +25,17 @@
       img:hover {
         opacity: 0.5;
       }
+      @media only screen and (min-width: 600px) {
+  .cat { flex-direction: row; align-items: center; flex-wrap: wrap; gap: 12px; margin: 20px; }
+  .absolute { flex-direction: row; justify-content: space-between; align-items: center; gap: 12px; }
+
+  /* allow two columns on wider mobile / tablets */
+  .col {
+    width: 48%;
+    border-left: 2px solid green;  /* restore left border for multi-column layout */
+    margin-bottom: 16px;
+  }
+}
     </style>
   </head>
   <body style="background-color: #d3c6c6">
