@@ -1,0 +1,7 @@
+## DEADLINE FOR ACTIVITIES
+
+# KBA COURSES- 19/11/2025
+# CERTIAPP - 19/11/2025
+# Youtube - 19/11/2025
+# Portfolio- 19/11/2025
+# Library Management - 27/11/2025
