@@ -13,5 +13,5 @@ https://classroom.github.com/a/1_4AsTgG
 ## CSS Assignment Link
 https://classroom.github.com/a/9dJ3esNS
 
-## CSS & Tailwind Assignment
+## CSS & Tailwind Exam
 https://forms.gle/qTfo3gSnw6uiXioq7
