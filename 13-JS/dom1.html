@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="name"></div>
+    <script>
+       const ele = document.createElement("h1")
+       ele.textContent="JavaScript"
+       ele.style.color='blue'
+       const divEle=document.getElementById("name")
+       divEle.appendChild(ele)
+
+       const unlist = document.createElement("ul")
+       const l1 = document.createElement("li")
+       l1.textContent="Mango"
+       const l2 = document.createElement("li")
+       l2.textContent ="Orange"
+       const l3 = document.createElement("li")
+       l3.textContent="Banana"
+       unlist.appendChild(l1)
+       unlist.appendChild(l2)
+       unlist.appendChild(l3)
+       divEle.appendChild(unlist)
+       unlist.style.listStyleType="square"
+    </script>
+</body>
+</html>
