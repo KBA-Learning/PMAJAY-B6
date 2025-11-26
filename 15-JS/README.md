@@ -10,11 +10,14 @@ Write a JS program to print reverse of a number
 
 Write a JS program to print the patterns
 
+```
+
 25,30,35,40,45,50
 
 10,100,1000,10000
 
 8,10,12,14,16,18,20
+```
 
 Print the pattern
 
