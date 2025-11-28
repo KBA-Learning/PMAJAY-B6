@@ -18,3 +18,6 @@ https://forms.gle/qTfo3gSnw6uiXioq7
 
 ## Tailwind Assignment Link
 https://classroom.github.com/a/a1h2CeMW
+
+## JS Activity
+https://docs.google.com/document/d/1MeqTufo8miWbzb5-sDNzGK9ocmKz8JUJ2spo3MOwmuM/edit?usp=sharing
