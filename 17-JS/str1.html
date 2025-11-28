@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let k ="I love my country"
+        let j="", n=3
+        document.write("The length of string: ",k.length)
+        document.write("<br>")
+        for(let i=5;i>1;i--){
+           
+            j+=k[i]
+        }
+       
+        document.write("The substring is: ",j)
+
+        document.write("<br>The character at loc 2 is ",k.charAt(2))
+
+        document.write("<br>The word is : ",k.slice(2,6))
+        document.write("<br>The word is : ",k.slice(2))
+        document.write("<br>The word is : ",k.slice(-2))
+        document.write("<br>The word is : ",k.slice(-12,-2))
+        document.write("<br>The word is : ",k.substring(2,6))
+        document.write("<br>The word is : ",k.substr(2,4))
+
+        document.write("<br>The word is : ",k.toUpperCase())
+        document.write("<br>The word is : ",k.toLowerCase())
+
+        document.write("<br>The word is : ",k.concat(" and its heritage"))
+
+        let t ="  Hello Wold!        "
+        document.write("<br>The word is : ",t.trim())
+    
+        let url="www.kba.ai"
+        document.write("<br>The word is : ",url.split('.'))
+        
+    
+    </script>
+</body>
+</html>

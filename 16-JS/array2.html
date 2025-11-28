@@ -29,15 +29,27 @@
             e[i] = k
             k=k+2
         }
+        document.write("<br>The odd array is: ",e)
 
-         document.write("<br>The array is:",e)
+        //for-in
+        for(x in e){
+            e[x]=e[x]+5
+        }
+
+         document.write("<br>The array after addition is:",e)
 
          for(i=0;i<5;i++){
             e[i] = e[i]+2
          }
           document.write("<br>The array is:",e)
 
-       
+          //for-of
+           let sum =0
+          for(x of e){
+            sum = sum+x
+          }
+
+       document.write("<br>The sum of array is: ",sum)
 
 
     </script>
