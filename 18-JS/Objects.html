@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects introduction</title>
+</head>
+<body>
+    <h1>Check browser console</h1>
+    
+    <script>
+        //objects in js
+        let person = {
+            name: 'Ram',
+            age: 20,
+            address: 'Trivandrum',
+            greet: function(){
+                console.log('Hello, ' + this.name);
+            }
+        }
+
+        console.log(person.name); //Ram
+        console.log(person.age); //20
+        console.log(person.address); //Trivandrum
+        person.greet(); //Hello Ram
+
+    </script>
+</body>
+</html>

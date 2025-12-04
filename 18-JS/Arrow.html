@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow functions</title>
+</head>
+<body>
+    <h1> Arrow function introduction</h1>
+
+    <script>
+        let add = function(a,b){
+            return a+b;
+        }
+
+        let addarrow = (a,b) => a+b;
+
+        console.log('Regular function output: ', add(10,5));
+        console.log('Arrow function output: ', addarrow(10,5));
+
+        let square = a => a*a;
+        console.log('Square of number: ', square(10));
+
+         let person = {
+            name: 'Ram',
+            age: 20,
+            address: 'Trivandrum',
+            greet: function(){
+            setTimeout(()=>{
+                console.log('Hello ' + this.name);
+               },10000);
+
+            }
+        }
+
+        person.greet();
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope of this keyword</title>
+</head>
+<body>
+    <h1> Check console</h1>
+    <button onclick="showAlert()">show alert</button>
+    <script>
+        function showAlert(){
+            window.alert("Hello from window object")
+        }
+        console.log(this); //global window object
+        function showThis(){
+            console.log(this);
+        }
+        showThis(); //window object
+        let person = {  
+            name:'Ram',
+            greet: function(){
+                console.log('Hello '+ this.name);
+            }
+        }
+        person.greet(); //person scope - Hello Ram
+        let arrowGreet = () =>{
+            console.log('Arrow function context is: ', this);
+        }
+        arrowGreet(); //window object
+    </script>
+    
+</body>
+</html>
