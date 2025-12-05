@@ -21,3 +21,6 @@ https://classroom.github.com/a/7XpX0Tho
 
 ## JS Activity
 https://docs.google.com/document/d/1MeqTufo8miWbzb5-sDNzGK9ocmKz8JUJ2spo3MOwmuM/edit?usp=sharing
+
+## JS Assignment
+https://docs.google.com/document/d/1SBno_idrZUgLqnmVpO-F3rybXX9Ng0LmGZwzSiTLA1g/edit?usp=sharing
