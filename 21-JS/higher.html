@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher order functions</title>
+</head>
+<body>
+    <h1>Higher order functions examples</h1>
+    <script>
+        let numbers = [1,2,3,4,5];
+        let doubled = numbers.map(n => n*2);
+        console.log(doubled);
+        const squares = numbers.map(n => n*n);
+        console.log(squares);
+        let even = numbers.filter(n => n%2===0)
+        console.log(even);
+        let sum = numbers.reduce((total,n)=> total+n,0);
+        console.log('Sum is: ',sum);
+        let array = new Array(5).fill(0);
+        console.log('initialised array: ', array);
+    </script>
+    
+</body>
+</html>
