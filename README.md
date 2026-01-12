@@ -27,3 +27,6 @@ https://docs.google.com/document/d/1MeqTufo8miWbzb5-sDNzGK9ocmKz8JUJ2spo3MOwmuM/
 
 ## JS Assignment
 https://docs.google.com/document/d/1SBno_idrZUgLqnmVpO-F3rybXX9Ng0LmGZwzSiTLA1g/edit?usp=sharing
+
+## Node & JS Exam
+https://docs.google.com/document/d/1tqmmewuEpEwfQMNw_wqc6fvzpwFXkLxHbyCxMwk7oxg/edit?tab=t.0
