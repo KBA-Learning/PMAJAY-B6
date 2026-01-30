@@ -27,7 +27,7 @@ sudo systemctl start mongod
 ```bash
 sudo systemctl status mongod
 ```
-Press **Ctrl + C** to exit the status view,
+Press **Ctrl + C** to exit the status view
 
 ---
 
@@ -83,6 +83,12 @@ db.myCollection.insertMany([
 ---
 
 ### Read (Find)
+
+#### Show All Records in a Collection
+
+```bash
+db.myCollection.find()
+```
 
 #### Find One Document
 
@@ -288,6 +294,15 @@ Now you can:
 - Browse collections
 - Insert documents visually
 - Run queries easily
+
+```bash
+{
+  "name": "Neha",
+  "age": 25,
+  "city": "India"
+}
+```
+
 
 ---
 
