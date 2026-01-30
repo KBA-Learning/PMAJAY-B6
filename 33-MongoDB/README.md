@@ -145,6 +145,75 @@ db.myCollection.deleteMany({ age: { $gt: 30 } })
 
 ---
 
+## Sort Documents
+
+Sort results in **ascending (1)** or **descending (-1)** order.
+
+```js
+db.myCollection.find().sort({ name: 1 })   
+```  
+```js 
+db.myCollection.find().sort({ age: -1 })     
+```
+
+---
+
+## Limit Results
+
+Show only a specific number of documents.
+
+```js
+db.myCollection.find().limit(2)
+```
+
+---
+
+## Count Documents
+
+```js
+db.myCollection.countDocuments()
+```
+
+---
+
+
+## Find Only Specific Fields (Projection)
+
+Show only selected fields.
+
+```js
+db.myCollection.find({}, { name: 1, age: 1 })
+```
+
+Hide `_id` field:
+
+```js
+db.myCollection.find({}, { name: 1, _id: 0 })
+```
+
+---
+
+## Drop a Collection
+
+Deletes an entire collection permanently.
+
+```js
+db.myCollection.drop()
+```
+
+---
+
+## Drop a Database
+
+Deletes the current database permanently.
+
+```js
+db.dropDatabase()
+```
+
+---
+
+
 ## Stop MongoDB Service
 
 To stop MongoDB:
