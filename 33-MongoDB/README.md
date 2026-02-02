@@ -294,3 +294,47 @@ Now you can:
 }
 ```
 
+---
+### Task
+
+
+1. Create Students table
+
+
+| Roll No | Name   | Age | Course  | Marks | City        |
+|--------:|--------|----:|--------|------:|------------|
+| 101     | Rahul  | 20  | BCA    | 85    | Kochi      |
+| 102     | Anjali | 21  | BSc CS | 92    | Trivandrum |
+| 103     | Arjun  | 19  | BCA    | 78    | Calicut    |
+| 104     | Meera  | 22  | BTech  | 88    | Kochi      |
+| 105     | Vishnu | 20  | BSc CS | 95    | Kannur     |
+
+
+
+
+2. Find students scoring above 90
+
+
+3. Find students who scored between 80 and 90
+
+
+4. Find Students With Marks > 90 OR Age < 20
+
+
+Hint:
+```bash
+
+
+db.collection.find({
+ $or: [
+   { condition1 },
+   { condition2 }
+ ]
+})
+```
+5. Explore MongoDB Atlas
+
+
+
+
+
