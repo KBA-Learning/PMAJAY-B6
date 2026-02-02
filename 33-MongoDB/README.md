@@ -124,15 +124,6 @@ db.myCollection.updateMany(
 )
 ```
 
-#### Example Update with Additional Fields
-
-```bash
-db.myCollection.updateMany(
-  { userName: "John Doe" },
-  { $set: { age: "30", empid: "emp_08" } }
-)
-```
-
 ---
 
 ### Delete
@@ -302,7 +293,4 @@ Now you can:
   "city": "India"
 }
 ```
-
-
----
 
