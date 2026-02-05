@@ -61,4 +61,6 @@ export default Course;
 
 **Task**
 
+1. Implement Add to Cart using MongoDB (Mongoose).
 
+2. Implement the CertiApp using MongoDB (Mongoose).
