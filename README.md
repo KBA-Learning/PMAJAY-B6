@@ -35,5 +35,9 @@ https://docs.google.com/document/d/1SBno_idrZUgLqnmVpO-F3rybXX9Ng0LmGZwzSiTLA1g/
 ## Node & JS Exam
 https://docs.google.com/document/d/1tqmmewuEpEwfQMNw_wqc6fvzpwFXkLxHbyCxMwk7oxg/edit?tab=t.0
 
+
+## Backend + DB Exam Link
+https://docs.google.com/document/d/1Mmj0vyfDO4Y5y95LHFGJ-R263l8EEeVvoq5kf7uVxjs/edit?tab=t.0
+
 ## Project 
 https://classroom.github.com/a/DHWgZNzU
