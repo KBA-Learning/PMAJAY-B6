@@ -1,6 +1,8 @@
 import React from "react";
 
 const ContactPage = () => {
+
+  
   return (
     <>
       <section className="bg-white my-1 py-10 ">

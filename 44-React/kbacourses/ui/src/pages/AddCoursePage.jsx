@@ -1,6 +1,8 @@
 import React from "react";
 
 const AddCoursePage = () => {
+
+  
   return (
     <>
       <section className="bg-white mb-20">
