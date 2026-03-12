@@ -51,14 +51,25 @@ catch{
 })
 
 adminauth.get('/getAllCourses', async (req, res) => {
-    try {
-      const courses = await Course.find({});
-      res.json(courses);
-    } catch (err) {
-      console.log(err);
-      res.status(500).json({ msg: "Internal Server Error" });
-    }
-  });
+  try {
+    const courses = await Course.find({});
+
+    const formattedCourses = courses.map((course) => ({
+      courseName: course.courseName,
+      courseId: course.courseId,
+      courseType: course.courseType,
+      title: course.courseName,
+      description: course.description,
+      price: course.price,
+      imageUrl: `/api/getCourseImage?courseName=${encodeURIComponent(course.courseName)}`,
+    }));
+
+    res.status(200).json(formattedCourses);
+  } catch (err) {
+    console.log(err);
+    res.status(500).json({ msg: "Internal Server Error" });
+  }
+});
 
 // adminauth.get('/getCourse/:cname',(req,res)=>{
 

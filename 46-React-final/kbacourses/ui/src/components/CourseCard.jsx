@@ -8,11 +8,13 @@ const CourseCard = ({course}) => {
   const description = showFullDescription ? course.description: 
   course.description.substring(0,70)
 
+  const displayedImage = course.imageUrl ? course.imageUrl : rpImage
+
 
   return (
      <div className=' bg-purple-100  rounded-md shadow-2xl flex flex-col items-center justify-center mx-5 my-5 py-10'>
             <h2 className=' font-bold text-lg text-purple-900 '>{course.title}</h2>
-            <img src={rpImage} alt="course thumbnail" className='w-80 h-40 ' / >
+            <img src={displayedImage} alt="course thumbnail" className='w-80 h-40 ' / >
 
             <p className='text-black group-hover:text-white my-2 mx-5'>{description} </p>
 
