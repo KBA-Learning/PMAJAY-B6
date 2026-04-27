@@ -39,6 +39,9 @@ https://docs.google.com/document/d/1tqmmewuEpEwfQMNw_wqc6fvzpwFXkLxHbyCxMwk7oxg/
 ## Backend + DB Exam Link
 https://docs.google.com/document/d/1Mmj0vyfDO4Y5y95LHFGJ-R263l8EEeVvoq5kf7uVxjs/edit?tab=t.0
 
+## Ethereum Clients & Upgrades
+https://classroom.github.com/a/eqvjRV78
+
 
 ## React Exam Link
 https://docs.google.com/document/d/1Rj8kR98Q5MBqNNvQf83Xh8VGVf1bk0kAmDl64SB_aYg/edit?usp=sharing
