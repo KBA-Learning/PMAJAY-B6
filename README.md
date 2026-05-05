@@ -52,3 +52,6 @@ https://classroom.github.com/a/eqvjRV78
 
 ## Solidity Smart Contract
 https://classroom.github.com/a/mkIPTYJQ
+
+## EDP Project Ideas
+https://classroom.github.com/a/nT_5gGX8
