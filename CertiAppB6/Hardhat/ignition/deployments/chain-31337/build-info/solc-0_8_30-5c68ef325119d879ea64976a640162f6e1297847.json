@@ -1,0 +1,49 @@
+{
+  "_format": "hh3-sol-build-info-1",
+  "id": "solc-0_8_30-5c68ef325119d879ea64976a640162f6e1297847",
+  "solcVersion": "0.8.30",
+  "solcLongVersion": "0.8.30+commit.73712a01",
+  "compilerType": "solc",
+  "toolVersions": {
+    "hardhat": "3.4.2"
+  },
+  "userSourceNameMap": {
+    "contracts/Cert.sol": "project/contracts/Cert.sol"
+  },
+  "input": {
+    "language": "Solidity",
+    "settings": {
+      "evmVersion": "prague",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "": [
+            "ast"
+          ],
+          "*": [
+            "abi",
+            "evm.bytecode.linkReferences",
+            "evm.bytecode.object",
+            "evm.bytecode.opcodes",
+            "evm.bytecode.sourceMap",
+            "evm.deployedBytecode.immutableReferences",
+            "evm.deployedBytecode.linkReferences",
+            "evm.deployedBytecode.object",
+            "evm.deployedBytecode.opcodes",
+            "evm.deployedBytecode.sourceMap",
+            "evm.methodIdentifiers"
+          ]
+        }
+      },
+      "remappings": []
+    },
+    "sources": {
+      "project/contracts/Cert.sol": {
+        "content": "//SPDX-License-Identifier:MIT\n\npragma solidity 0.8.30;\n\ncontract Cert {\n    struct certificate {\n        string name;\n        string course;\n        string grade;\n        string date;\n    }\n\n    mapping(uint256 => certificate)public Certificates;\n\n    address admin;\n\n    constructor(){\n        admin = msg.sender;\n    }\n    modifier onlyAdmin{\n        require(msg.sender==admin,\"Only admin can deploy\");\n        _;\n    }\n\n    function issue(\n        uint256 _id,\n        string memory _name,\n        string memory _course,\n        string memory _grade,\n        string memory _date\n    ) public onlyAdmin{\n       \n        Certificates[_id] = certificate(_name,_course,_grade,_date);\n        \n    }\n\n    \n}\n"
+      }
+    }
+  }
+}
