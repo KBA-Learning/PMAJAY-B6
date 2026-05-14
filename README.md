@@ -55,3 +55,6 @@ https://classroom.github.com/a/mkIPTYJQ
 
 ## EDP Project Ideas
 https://classroom.github.com/a/nT_5gGX8
+
+## Certificate Verification Github Repo
+https://github.com/pglekshmi/CertVerification
